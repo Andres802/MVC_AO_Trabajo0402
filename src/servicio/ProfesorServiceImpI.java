@@ -27,12 +27,9 @@ import modelo.Profesor;
  */
 public class ProfesorServiceImpI implements ProfesorService {
 
-    private static List<Profesor> profesorList;
+    private static List<Profesor> profesorList = new ArrayList<>();
 
     public ProfesorServiceImpI() {
-
-        this.profesorList = new ArrayList<>();
-
     }
 
     @Override

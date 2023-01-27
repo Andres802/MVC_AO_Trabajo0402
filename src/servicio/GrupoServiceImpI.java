@@ -22,11 +22,9 @@ import modelo.Grupo;
  */
 public class GrupoServiceImpI implements GrupoService {
 
-    private static List<Grupo> grupoList;
+    private static List<Grupo> grupoList = new ArrayList<>();
 
     public GrupoServiceImpI() {
-
-        this.grupoList = new ArrayList<>();
 
     }
 
